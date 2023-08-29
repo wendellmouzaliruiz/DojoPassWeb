@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dōjō Pass - Connecting martial arts enthusiasts around the world!</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#flagPtBR').click(function () {
+                window.location.replace("ptBR.html");
+            });
+
+            $('#flagEsES').click(function () {
+                window.location.replace("esES.html");
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('#aBackToTop').css({
+                        'opacity': '1',
+                        'pointer-events': 'auto'
+                    });
+                } else {
+                    $('#aBackToTop').css({
+                        'opacity': '0',
+                        'pointer-events': 'none'
+                    });
+                }
+            });
+
+            $('#aAbout').click(function () {
+                $('html, body').animate({
+                    scrollTop: $('#sAbout').offset().top - 55
+                }, 1000);
+            });
+
+            $('#aEvolution').click(function () {
+                $('html, body').animate({
+                    scrollTop: $('#sEvolution').offset().top - 55
+                }, 1000);
+            });
+
+            $('#aInvestors, #aPitch').click(function () {
+                $('html, body').animate({
+                    scrollTop: $('#sPitch').offset().top - 55
+                }, 1000);
+            });
+
+            $('#aCanvas').click(function () {
+                $('html, body').animate({
+                    scrollTop: $('#sCanvas').offset().top - 55
+                }, 1000);
+            });
+
+            $('#aContactUs').click(function () {
+                $('html, body').animate({
+                    scrollTop: $('#sContactUs').offset().top - 55
+                }, 1000);
+            });
+
+            $('#aBackToTop').click(function () {
+                $('html, body').animate({
+                    scrollTop: $('header').offset().top
+                }, 1000);
+            });
+        });
+    </script>
+</head>
+
+<body class="size-1280">
+    <a href="javascript:void(0);" style="width: 40px; position: fixed; top: 160px; right: 5px; z-index: 999;">
+        <img id="flagPtBR" src="img/br-flag.png" alt="" style="padding-bottom: 3px;" />
+        <img id="flagEsES" src="img/es-flag.png" alt="" style="padding-bottom: 3px;" />
+    </a>
+
+    <a href="https://www.facebook.com/dojopassapp" target="_blank" style="position:fixed;top:156px;left:5px;z-index:999;"><i class="icon-facebook_circle text-size-25 text-dark"></i></a>
+    <a href="http://www.x.com/dojopassapp" target="_blank" style="position: fixed; top: 156px; left: 30px; z-index: 999;"><i class="icon-twitter_circle text-size-25 text-dark"></i></a>
+    <a href="https://www.instagram.com/dojopassapp" target="_blank" style="position: fixed; top: 186px; left: 5px; z-index: 999;"><i class="icon-instagram_circle text-size-25 text-dark"></i></a>
+    <a href="https://www.linkedin.com/company/dojo-pass" target="_blank" style="position: fixed; top: 186px; left: 30px; z-index: 999;"><i class="icon-linked_in_circle text-size-25 text-dark"></i></a>
+    <a href="https://www.youtube.com/@dojopass" target="_blank" style="position: fixed; top: 216px; left: 5px; z-index: 999;"><i class="icon-sli-social-youtube text-size-25 text-dark"></i></a>
+
+    <header role="banner" class="position-absolute">
+
+        <nav class="background-transparent background-primary-dott full-width sticky">
+            <div class="top-nav">
+
+                <div class="logo hide-l hide-xl hide-xxl">
+                    <a href="index.html" class="logo">
+                        <img class="logo-white" src="img/logo.png" alt="" />
+
+                        <img class="logo-dark" src="img/logo.png" alt="" />
+                    </a>
+                </div>
+                <p class="nav-text"></p>
+
+                <div class="top-nav left-menu">
+                    <ul class="right top-ul chevron">
+                        <li><a id="aAbout">About the Startup</a></li>
+                        <li><a id="aEvolution">Our Evolution</a></li>
+                    </ul>
+                </div>
+
+                <ul class="logo-menu">
+                    <a href="index.html" class="logo">
+                        <img class="logo-white" src="img/logo.png" alt="" />
+
+                        <img class="logo-dark" src="img/logo.png" alt="" />
+                    </a>
+                </ul>
+
+                <div class="top-nav right-menu">
+                    <ul class="top-ul chevron">
+                        <li>
+                            <a id="aInvestors">For Investors</a>
+                            <ul>
+                                <li><a id="aPitch">Pitch</a></li>
+                                <li><a id="aCanvas">Business Model Canvas</a></li>
+                            </ul>
+                        </li>
+                        <li><a id="aContactUs">Contact Us</a></li>
+                        <li><a id="aBackToTop">Back to Top</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <center style="margin-top: 125px; font-size: 21px;"><b>Dōjō Pass</b></center>
+
+    <main role="main">
+        <header class="section-top-padding background-image text-center">
+            <h1 class="text-extra-thin text-black text-s-size-20 text-m-size-30 text-size-40 text-line-height-1 margin-bottom-20 margin-top-60">
+                <b>Connecting martial arts enthusiasts around the world!</b>
+            </h1>
+            <p class="text-black text-s-size-16 text-m-size-18 text-size-20"><b>Dōjō Pass</b> is a mobile application designed to connect individuals interested in <br />practicing martial arts with instructors and academies from around the world.</p>
+            <i class="slow icon-sli-arrow-down text-black margin-top-20 text-size-16"></i>
+
+            <img class="margin-top-20 center" src="img/app-enUS.png" alt="">
+
+            <img class="arrow-object" src="img/arrow-object-dark.png" alt="">
+        </header>
+
+        <section class="section-small-padding background-dark text-center">
+            <div class="line">
+                <div class="m-10 l-6 xl-4 center">
+                    <div class="margin">
+                        <a class="s-12 m-6 margin-s-bottom" href="javascript:void(0);">
+                            <img class="full-img right" src="img/google-play.svg" alt="">
+                        </a>
+                        <a class="s-12 m-6" href="javascript:void(0);">
+                            <img class="full-img" src="img/app-store.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sAbout" class="margin-top-80 section-top-padding background-white">
+            <div class="line text-center">
+                <h2 class="text-dark text-size-50 text-m-size-40">About <b>Dōjō Pass</b></h2>
+            </div>
+            <div class="line">
+                <div class="margin2x">
+                    <div class="float-left">
+                        <i class="icon-sli-pin text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Missão</h3>
+                        <p>Our mission is to connect and inspire martial arts enthusiasts worldwide by offering them an innovative platform to explore, learn, and practice. We aim to provide easy access to authentic academies and qualified instructors, while fostering a global community that celebrates discipline, respect, and personal evolution through martial arts.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-eye text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Visão</h3>
+                        <p>Our vision is to be the ultimate global reference in martial arts connections, empowering individuals to achieve their learning and health goals through a unique digital platform. We envision a world where people of all ages and backgrounds can immerse themselves in the rich traditions of martial arts, regardless of their location or previous experience.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-diamond text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Valores</h3>
+                        <p><b>Passion for Authenticity:</b> We value and promote the authenticity of martial arts by connecting our users with academies and instructors dedicated to preserving these traditions.</p>
+                        <br />
+                        <p><b>Global Community:</b> We believe in the power of a global community united by a shared love for martial arts. We encourage the exchange of experiences and knowledge among our members.</p>
+                        <br />
+                        <p><b>Continuous Learning:</b> We are committed to continuous learning and personal evolution through martial arts. We believe that each class is an opportunity for physical, mental, and spiritual growth.</p>
+                        <br />
+                        <p><b>Respect and Discipline:</b> We uphold the principles of mutual respect, discipline, and self-control, which are essential in both martial arts and daily life.</p>
+                        <br />
+                        <p><b>Accessibility and Inclusion:</b> We strive to make martial arts accessible to everyone, regardless of age, gender, ethnic background, or skill level. We believe that diversity enriches our community.</p>
+                        <br />
+                        <p><b>Excellence and Integrity:</b> We pursue excellence in everything we do, maintaining high standards of quality and integrity in both our services and relationships with academies and instructors.</p>
+                        <br />
+                        <p><b>Responsible Innovation:</b> We embrace technological innovation to enhance the martial arts experience, always considering the traditions and values that underpin this practice.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sEvolution" class="margin-top-80 section-top-padding background-white">
+            <div class="line text-center">
+                <h2 class="text-dark text-size-50 text-m-size-40">Our <b>Evolution</b></h2>
+                <h2 class="text-dark text-size-50 text-m-size-40">Current Sprint</h2>
+                <h2 class="text-dark text-size-50 text-m-size-40"><b>3</b></h2>
+            </div>
+            <div class="line">
+                <div class="margin2x">
+                    <div class="float-left">
+                        <i class="icon-sli-wrench text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Development of MySQL Database Structure</h3>
+                        <p>We will continue to strengthen the foundation of our platform by building a robust and scalable database structure using MySQL. This will allow us to efficiently manage data and provide a seamless experience for our users.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-wrench text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Creation of Sign In and Sign Up APIs</h3>
+                        <p>We are focused on delivering a seamless registration and login experience for our users. We will create robust APIs for Sign In and Sign Up, ensuring security and user-friendliness.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-wrench text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Development of Product Line for the Online Store</h3>
+                        <p>We are excited to expand our horizons by introducing an online store. We will develop a product line related to martial arts, offering our users the opportunity to acquire authentic and high-quality products.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="margin-top-80 section-top-padding background-white">
+            <div class="line text-center">
+                <h2 class="text-dark text-size-50 text-m-size-40">Previous Sprint</h2>
+                <h2 class="text-dark text-size-50 text-m-size-40"><b>2</b></h2>
+            </div>
+            <div class="line">
+                <div class="margin2x">
+                    <div class="float-left">
+                        <i class="icon-sli-control-play text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Creation of First Version of Android App</h3>
+                        <p>Now it's time to take <b>Dōjō Pass</b> to the next level by expanding its presence to mobile devices. The team will dedicate themselves to creating the first version of the Android app, where the magic of the platform will be at the fingertips of martial arts enthusiasts. The interface will be carefully designed, aiming for simplicity and efficiency to provide a seamless and captivating experience that facilitates user connection and strengthens the global martial arts community.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-control-pause text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Release of First Version of Android App</h3>
+                        <p>With the first version of the Android app ready, it's time to launch it to the market. Once again, the team will use the Lean approach to gather feedback from early users and identify opportunities for improvement. This phase will allow for quick and precise adjustments, ensuring that the app meets the expectations and needs of martial arts enthusiasts, providing a platform that promotes connection and learning.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-control-play text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Creation of First Version of iOS App</h3>
+                        <p>Now it's time to bring the <b>Dōjō Pass</b> experience to iOS users. The team will focus on developing the first version of the app for Apple devices, ensuring that innovation and quality are present across all platforms, providing a consistent and engaging experience for all martial arts enthusiasts.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-control-pause text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Release of First Version of iOS App</h3>
+                        <p>With the first version of the iOS app completed, it's time to make it available on the App Store. This important milestone will allow <b>Dōjō Pass</b> to reach an even larger user base, expanding the reach and visibility of the platform among martial arts enthusiasts. Just like in the Android version, the team will pay attention to feedback and metrics to make continuous improvements, always striving to provide the best possible service to users around the world.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sPitch" class="margin-top-80 section-top-padding background-white">
+            <div class="line text-center">
+                <h2 class="text-dark text-size-50 text-m-size-40">For <b>Investors</b></h2>
+                <h2 class="text-dark text-size-50 text-m-size-40"><b>Pitch</b></h2>
+            </div>
+            <div class="line">
+                <div class="margin2x">
+                    <div class="margin-left-60">
+                        <p><b>Dōjō Pass</b> will be a comprehensive platform that will allow users to access various martial arts academies and instructors through a single subscription.</p>
+                    </div>
+                    <br />
+                    <div class="margin-left-60">
+                        <p>We will also provide access to online classes and tutorials, virtual stores, and an active community.</p>
+                    </div>
+                    <br />
+                    <div class="margin-left-60">
+                        <p>With diverse styles, tailored location, and interactive features, we empower enthusiasts to practice and learn martial arts anywhere, at any time.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sCanvas" class="margin-top-80 section-top-padding background-white">
+            <div class="line text-center">
+                <h2 class="text-dark text-size-50 text-m-size-40">Business Model <b>Canvas</b></h2>
+            </div>
+            <br />
+            <div class="line">
+                <div class="margin2x">
+                    <div class="float-left">
+                        <i class="icon-sli-people text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Key Partnerships</h3>
+                        <p><b>Martial Arts Academies and Instructors</b>: Collaborate with established martial arts academies and instructors to offer their expertise and attract a broader user base.</p>
+                        <br />
+                        <p><b>Suppliers:</b> Establish partnerships with suppliers of martial arts-related products for e-commerce sales.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-list text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Key Activities</h3>
+                        <p><b>Landing Page Development:</b> Ongoing development of our Landing Page, which serves as the gateway to the world of <b>Dōjō Pass</b>. It will showcase the startup's value proposition, highlighting its mission to connect martial arts enthusiasts, along with its core features.</p>
+                        <br />
+                        <p><b>App Development:</b> Continuously enhance and improve the <b>Dōjō Pass</b> mobile app by adding new features and functionalities.</p>
+                        <br />
+                        <p><b>Content Creation:</b> Develop high-quality instructional content, tutorials, and virtual classes for users.</p>
+                        <br />
+                        <p><b>Marketing and Promotion:</b> Implement digital marketing strategies, social media campaigns, and partnerships to increase awareness of the app and acquire users.</p>
+                        <br />
+                        <p><b>Customer Support:</b> Provide responsive customer support to answer questions, address technical issues, and gather user feedback.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-trophy text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Value Proposition</h3>
+                        <p><b>Comprehensive Martial Arts Platform:</b> <b>Dōjō Pass</b> offers a complete solution for learning, practicing, and connecting with the martial arts community.</p>
+                        <br />
+                        <p><b>Global Accessibility:</b> App localization efforts and online classes enable users worldwide to conveniently access martial arts.</p>
+                        <br />
+                        <p><b>Diversity of Martial Arts Styles:</b> By including diverse martial arts disciplines, <b>Dōjō Pass</b> caters to a wide range of users, attracting both beginners and experienced practitioners.</p>
+                        <br />
+                        <p><b>Community and Collaboration:</b> App community features facilitate interaction, knowledge sharing, and a sense of belonging among martial arts enthusiasts.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-user-following text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Customer Segments</h3>
+                        <p><b>Martial Arts Enthusiasts:</b> Individuals interested in practicing and learning martial arts.</p>
+                        <br />
+                        <p><b>Martial Arts Academies:</b> Martial arts academies looking to expand their reach, attract new students, and leverage an online platform.</p>
+                        <br />
+                        <p><b>Martial Arts Instructors:</b> Martial arts instructors seeking to connect with new job opportunities, either through new positions in academies or private lessons for new students.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-emotsmile text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Customer Relationship</h3>
+                        <p><b>User Engagement:</b> Foster a strong relationship with users through interactive features, personalized recommendations, and responsive customer support.</p>
+                        <br />
+                        <p><b>Partnership Collaboration:</b> Maintain mutually beneficial relationships with martial arts academies and instructors, offering support and revenue-sharing opportunities.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-share text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Channels</h3>
+                        <p><b>Own Landing Page:</b> Dedicated web page to showcase the startup's evolution.</p>
+                        <br />
+                        <p><b>Mobile App Stores:</b> Distribute the <b>Dōjō Pass</b> app through major app stores to reach a wide user base.</p>
+                        <br />
+                        <p><b>Digital Marketing Channels:</b> Utilize social media, online advertising, and influencer marketing to create awareness and drive app downloads.</p>
+                        <br />
+                        <p><b>Partnerships and Collaborations:</b> Collaborate with martial arts academies, influencers, and industry organizations to expand reach and attract users.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-graph text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Revenue Streams</h3>
+                        <p><b>Freemium Model:</b> Basic app features available for free to attract users.</p>
+                        <br />
+                        <p><b>Premium Subscriptions:</b> Offer advanced features, exclusive content, and an enhanced experience through subscription plans.</p>
+                        <br />
+                        <p><b>E-commerce Sales:</b> Generate revenue by selling martial arts products, equipment, and training materials within the app.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-settings text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Key Resources</h3>
+                        <p><b>Technological Infrastructure:</b> Servers, databases, and necessary software to support the app and ensure a seamless user experience.</p>
+                        <br />
+                        <p><b>Content Creation:</b> Development of instructional content, tutorials, and virtual classes either internally or in collaboration with martial arts experts.</p>
+                        <br />
+                        <p><b>Human Resources:</b> Development and design teams, content creators, marketing team, and customer support.</p>
+                    </div>
+                    <br />
+                    <div class="float-left">
+                        <i class="icon-sli-eyeglass text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">Cost Structure</h3>
+                        <p><b>App Development and Maintenance:</b> Expenses related to app development, bug fixes, updates, and ongoing maintenance.</p>
+                        <br />
+                        <p><b>Content Creation:</b> Costs associated with creating high-quality instructional content and virtual classes.</p>
+                        <br />
+                        <p><b>Marketing and Advertising:</b> Investments in digital marketing campaigns, social media ads, and partnerships with influencers.</p>
+                        <br />
+                        <p><b>Operational Costs:</b> Team salaries, customer support, hosting fees, and administrative expenses.</p>
+                    </div>
+                    <br />
+                    <br />
+                </div>
+            </div>
+        </section>
+
+        <section id="sContactUs" style="background-color: #000;" class="full-width">
+            <div class="m-12 l-6 xl-5 xxl-4">
+                <img class="full-img" src="img/img-02.jpg" />
+            </div>
+            <div class="m-12 l-6 xl-7 xxl-8">
+                <div class="l-12 xl-11 xxl-8 padding-2x">
+                    <h2 class="text-l-size-40 text-size-50 text-white">Contact Us</h2>
+                    <h2 class="text-l-size-10 text-size-20 text-white"><i class="icon-sli-screen-smartphone text-white"></i> <a href="https://wa.me/5511984997833?text=Olá, <b>Dōjō Pass</b>!" target="_blank">+55 11 98499-7833</a></h2>
+                    <h2 class="text-l-size-10 text-size-20 text-white"><a class="text-primary-hover" href="mailto:contato@dojopass.app"><i class="icon-sli-mouse text-white"></i> contato@dojopass.app</a></h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-small-padding background-dark text-center">
+            <div class="line">
+                <h2 class="text-white text-size-50 text-m-size-40 margin-bottom-20">Coming soon to your <b>app store</b></h2>
+                <div class="m-10 l-6 xl-4 center">
+                    <div class="margin">
+                        <a class="s-12 m-6 margin-s-bottom" href="javascript:void(0);">
+                            <img class="full-img right" src="img/google-play.svg" alt="">
+                        </a>
+                        <a class="s-12 m-6" href="javascript:void(0);">
+                            <img class="full-img" src="img/app-store.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="background-primary padding text-center">
+            <a href="https://www.facebook.com/dojopassapp" target="_blank"><i class="icon-facebook_circle text-size-25 text-dark"></i></a>
+            <a href="http://www.x.com/dojopassapp" target="_blank"><i class="icon-twitter_circle text-size-25 text-dark"></i></a>
+            <a href="https://www.instagram.com/dojopassapp" target="_blank"><i class="icon-instagram_circle text-size-25 text-dark"></i></a>
+            <a href="https://www.linkedin.com/company/dojo-pass" target="_blank"><i class="icon-linked_in_circle text-size-25 text-dark"></i></a>
+            <a href="https://www.youtube.com/@dojopass" target="_blank"><i class="icon-sli-social-youtube text-size-25 text-dark"></i></a>
+        </div>
+
+        <section class="section background-dark">
+            <div class="line">
+                <div class="margin2x">
+                    <div class="s-12 m-6 l-3 xl-5">
+                        <h4 class="text-white text-strong">Our mission</h4>
+                        <p>
+                            is to connect and inspire martial arts enthusiasts worldwide by offering them an innovative platform to explore, learn, and practice. We aim to provide easy access to authentic academies and qualified instructors, while fostering a global community that celebrates discipline, respect, and personal evolution through martial arts.
+                        </p>
+                    </div>
+                    <div class="s-12 m-6 l-3 xl-3">
+                        <h4 class="text-white text-strong margin-m-top-30">Contact Us</h4>
+                        <p><i class="icon-sli-screen-smartphone text-primary"></i> <a href="https://wa.me/5511984997833?text=Olá, <b>Dōjō Pass</b>!" target="_blank">+55 11 98499-7833</a></p>
+                        <a class="text-primary-hover" href="mailto:contato@dojopass.app"><i class="icon-sli-mouse text-primary"></i> contato@dojopass.app</a><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="background-dark">
+            <div class="line">
+                <hr class="break margin-top-bottom-0" style="border-color: #777;">
+            </div>
+        </div>
+
+        <section class="padding-2x background-dark full-width">
+            <div class="line">
+                <div class="s-12 l-6">
+                    <p class="text-size-12">Copyright 2023, <b>Dōjō Pass</b> - dojopass.app</p>
+                    <p class="text-size-12">Connecting martial arts enthusiasts around the world!</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script>
+</body>
+</html>
